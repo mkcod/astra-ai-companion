@@ -1,8 +1,15 @@
 # 🤖 Astra AI Companion 
+--
+## 🤯 Problem Statement
+While real-time voice assistants are becoming popular, most lack **domain-specific expertise**, **emotional sensitivity**, and **seamless interaction quality**.
+- From a business perspective, this gap limits user engagement, satisfaction, and long-term retention — because generalized conversations fail to meet the evolving expectations of specialized, value-driven assistance.
+- For end-users, especially children, young learners, and emotionally sensitive individuals, today's voice technologies often feel transactional rather than transformational.
 
-**Astra AI Companion** is a real-time AI companion powered by **Azure AI Agent Service** and **Semantic Kernel Realtime Agent**. It offers a voice-based support system for various use cases such as **mental health**, **personality development**, and **Grade 2 Maths Olympiad preparation**. Astra blends soulful, empathetic conversation with intelligent function calls to assist users in a variety of domains.
+Users need a voice companion that not only responds instantly but also adapts intelligently to different emotional and cognitive contexts, offering specialized, empathetic, and accurate support across key areas like mental health, personality development, and education.
 
-This repository provides a **FastAPI backend server** for real-time communication and a **frontend application** built with modern web technologies.
+A solution like Astra, which delivers real-time, domain-focused, and emotionally intelligent experiences, not only fulfills critical user needs but also opens up new possibilities for personalized learning, well-being enhancement, and lifelong engagement — driving both individual growth and broader business impact.
+
+**Astra AI Companion** is powered by **Azure AI Agent Service** and **Semantic Kernel Realtime Agent**. It offers a voice-based support system for various use cases such as **mental health**, **personality development**, and **Grade 2 Maths Olympiad preparation**. Astra blends soulful, empathetic conversation with intelligent function calls to assist users in a variety of domains.
 
 ![](https://github.com/mkcod/astra-ai-companion/blob/main/banner.PNG "Astra - The Angel")
 
@@ -16,6 +23,8 @@ This repository provides a **FastAPI backend server** for real-time communicatio
 - **Web Search Integration**: Astra can search the web using SerpAPI for factual information.
 - **Date and Time Awareness**: Astra can provide current date and time information.
 - **AI-Driven Responses**: Powered by Azure AI Agent Service and Semantic Kernel.
+
+
 
 ## 💻 Setup Instructions
 
