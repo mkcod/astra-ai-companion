@@ -1,5 +1,6 @@
 # 🤖 Astra AI Companion 
---
+![](https://github.com/mkcod/astra-ai-companion/blob/main/banner.PNG "Astra - The Angel")
+
 ## 🤯 Problem Statement
 While real-time voice assistants are becoming popular, most lack **domain-specific expertise**, **emotional sensitivity**, and **seamless interaction quality**.
 - From a business perspective, this gap limits user engagement, satisfaction, and long-term retention — because generalized conversations fail to meet the evolving expectations of specialized, value-driven assistance.
@@ -11,7 +12,7 @@ A solution like Astra, which delivers real-time, domain-focused, and emotionally
 
 **Astra AI Companion** is powered by **Azure AI Agent Service** and **Semantic Kernel Realtime Agent**. It offers a voice-based support system for various use cases such as **mental health**, **personality development**, and **Grade 2 Maths Olympiad preparation**. Astra blends soulful, empathetic conversation with intelligent function calls to assist users in a variety of domains.
 
-![](https://github.com/mkcod/astra-ai-companion/blob/main/banner.PNG "Astra - The Angel")
+
 
 ## 🚀 Features
 
