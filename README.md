@@ -17,27 +17,6 @@ This repository provides a **FastAPI backend server** for real-time communicatio
 - **Date and Time Awareness**: Astra can provide current date and time information.
 - **AI-Driven Responses**: Powered by Azure AI Agent Service and Semantic Kernel.
 
-## 🔮 Future Use Cases
-1.  **Multi-Agent Emotional Resonance and Adaptive Support System:**
-    -   **A Vocal Emotion Analyst Agent** would dissect the user's vocal cues, identifying nuanced emotional states.
-    -   **A Biofeedback Integration Agent** would process physiological data from wearables (if available).
-    -   **A Therapeutic Dialogue Agent** would then use this combined information to tailor empathetic responses and guide the user through appropriate voice-based exercises or calming techniques, dynamically adapting the interaction based on real-time emotional and physiological feedback.
-
-2.  **Context-Aware Proactive Environmental Intelligence:**
-    -   **Acoustic Scene Understanding Agent** would analyze ambient sounds and spoken conversations (with strict privacy protocols).
-    -   **Knowledge Retrieval Agents** (specialized by domain) would proactively fetch relevant information based on the detected context.
-    -   **A Voice Interface Orchestration Agent** would then present this information through natural voice prompts at opportune moments, offering seamless and contextually relevant assistance without explicit user commands.
-
-3.  **Collaborative Voice-Driven Creative Narrative Generation:**
-    -   **A Story Architect Agent** would manage the overall narrative structure and potential plotlines.
-    -   **Character Voice Emulation Agents** (potentially with distinct personalities) would embody different characters within the story.
-    -   **A User Voice Interaction Agent** would interpret the user's voice commands and emotional input, influencing the story's progression and character interactions in real-time through dynamic dialogue and plot adjustments orchestrated by the other agents.
-
-4.  **Distributed Voice-Based Collaborative Creation Suite:**
-    -   **A Voice Input and Interpretation Agent** would transcribe and semantically understand voice input from multiple users.
-    -   **Specialized Creation Agents** (e.g., a Melody Generation Agent, a Lyric Suggestion Agent, a Code Snippet Generator) would process these voice inputs collaboratively.
-    -   **A Synchronization and Merging Agent** would weave together the contributions from different users and agents into a unified creative output (e.g., a musical piece, a written document, or even code), with voice-based feedback and iteration driving the collaborative process.
-
 ## 💻 Setup Instructions
 
 1. **Clone the Repository**:
@@ -99,3 +78,24 @@ This project is licensed under the MIT License, applicable only during the Micro
 ## 📒 Note
 
 This repository is my submission for the **Microsoft AI Agent Hackathon 2025**. The project showcases the integration of Azure AI Agent Service with a voice-enabled assistant built using FastAPI and Semantic Kernel Realtime Agent.
+
+## 🔮 Future Use Cases
+1.  **Multi-Agent Emotional Resonance and Adaptive Support System:**
+    -   **A Vocal Emotion Analyst Agent** would dissect the user's vocal cues, identifying nuanced emotional states.
+    -   **A Biofeedback Integration Agent** would process physiological data from wearables (if available).
+    -   **A Therapeutic Dialogue Agent** would then use this combined information to tailor empathetic responses and guide the user through appropriate voice-based exercises or calming techniques, dynamically adapting the interaction based on real-time emotional and physiological feedback.
+
+2.  **Context-Aware Proactive Environmental Intelligence:**
+    -   **Acoustic Scene Understanding Agent** would analyze ambient sounds and spoken conversations (with strict privacy protocols).
+    -   **Knowledge Retrieval Agents** (specialized by domain) would proactively fetch relevant information based on the detected context.
+    -   **A Voice Interface Orchestration Agent** would then present this information through natural voice prompts at opportune moments, offering seamless and contextually relevant assistance without explicit user commands.
+
+3.  **Collaborative Voice-Driven Creative Narrative Generation:**
+    -   **A Story Architect Agent** would manage the overall narrative structure and potential plotlines.
+    -   **Character Voice Emulation Agents** (potentially with distinct personalities) would embody different characters within the story.
+    -   **A User Voice Interaction Agent** would interpret the user's voice commands and emotional input, influencing the story's progression and character interactions in real-time through dynamic dialogue and plot adjustments orchestrated by the other agents.
+
+4.  **Distributed Voice-Based Collaborative Creation Suite:**
+    -   **A Voice Input and Interpretation Agent** would transcribe and semantically understand voice input from multiple users.
+    -   **Specialized Creation Agents** (e.g., a Melody Generation Agent, a Lyric Suggestion Agent, a Code Snippet Generator) would process these voice inputs collaboratively.
+    -   **A Synchronization and Merging Agent** would weave together the contributions from different users and agents into a unified creative output (e.g., a musical piece, a written document, or even code), with voice-based feedback and iteration driving the collaborative process.
