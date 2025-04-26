@@ -4,6 +4,8 @@
 
 This repository provides a **FastAPI backend server** for real-time communication and a **frontend application** built with modern web technologies.
 
+![](https://github.com/mkcod/astra-ai-companion/blob/main/banner.PNG "Astra - The Angel")
+
 ## 🚀 Features
 
 - **Real-time Voice Interaction**: Users can engage with Astra through real-time voice-based conversation.
