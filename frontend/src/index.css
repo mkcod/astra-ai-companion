@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-celestial-950 via-celestial-900 to-ethereal-900 text-white min-h-screen font-sans;
+  }
+  
+  h1, h2, h3, h4, h5 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply backdrop-blur-md bg-white/10 rounded-xl border border-white/20 shadow-lg;
+  }
+  
+  .celestial-glow {
+    @apply after:absolute after:inset-0 after:bg-gradient-to-r after:from-ethereal-500/20 after:to-celestial-500/20 after:rounded-full after:blur-md after:-z-10;
+  }
+  
+  .angel-message {
+    @apply p-4 rounded-lg bg-gradient-to-r from-celestial-800/70 to-celestial-900/70 shadow-md;
+  }
+  
+  .user-message {
+    @apply p-4 rounded-lg bg-gradient-to-r from-ethereal-800/70 to-ethereal-900/70 shadow-md;
+  }
+}
+
+/* Animation for the typing indicator */
+.typing-dot {
+  @apply inline-block w-2 h-2 mx-0.5 rounded-full bg-angel-300;
+  animation: typing 1.4s infinite both;
+}
+
+.typing-dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.typing-dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes typing {
+  0%, 100% {
+    transform: translateY(0);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateY(-5px);
+    opacity: 1;
+  }
+}
+
+/* Particles background animation */
+.particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.particle {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  animation: float-particle 5s infinite ease-in-out;
+}
+
+@keyframes float-particle {
+  0%, 100% {
+    transform: translateY(0) translateX(0);
+    opacity: 0.1;
+  }
+  50% {
+    transform: translateY(-20px) translateX(10px);
+    opacity: 0.5;
+  }
+}
+
+/* Audio wave animation */
+.audio-wave {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+
+.audio-wave .wave-bar {
+  width: 4px;
+  height: 100%;
+  margin: 0 2px;
+  background-color: theme('colors.angel.300');
+  border-radius: 3px;
+  animation: wave 1.2s infinite ease-in-out;
+}
+
+.audio-wave .wave-bar:nth-child(1) { animation-delay: 0.0s; }
+.audio-wave .wave-bar:nth-child(2) { animation-delay: 0.1s; }
+.audio-wave .wave-bar:nth-child(3) { animation-delay: 0.2s; }
+.audio-wave .wave-bar:nth-child(4) { animation-delay: 0.3s; }
+.audio-wave .wave-bar:nth-child(5) { animation-delay: 0.4s; }
+
+@keyframes wave {
+  0%, 100% {
+    height: 30%;
+  }
+  50% {
+    height: 100%;
+  }
+}
+
+/* Halo effect */
+.halo {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  right: -8px;
+  bottom: -8px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(240, 185, 11, 0.3) 0%, rgba(240, 185, 11, 0) 70%);
+  z-index: -1;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+}
