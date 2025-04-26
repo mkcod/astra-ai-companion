@@ -24,7 +24,44 @@ A solution like Astra, which delivers real-time, domain-focused, and emotionally
 - **Date and Time Awareness**: Astra can provide current date and time information.
 - **AI-Driven Responses**: Powered by Azure AI Agent Service and Semantic Kernel.
 
+![](https://github.com/mkcod/astra-ai-companion/blob/main/features.PNG "Features")
 
+## 🏋️ Challenges Faced
+1. **Real-Time Voice Latency**:
+Managing and minimizing delays during live voice interactions to create a smooth, natural conversation flow.
+
+2. **Agent Orchestration Complexity**:
+Coordinating multiple specialized agents seamlessly without making conversations feel disjointed or robotic.
+
+3. **Balancing Empathy and Accuracy**:
+Designing responses that are both emotionally supportive and factually correct across diverse domains.
+
+4. **Integrating FastAPI with Frontend Realtime Communication**:
+Building a backend that could handle quick, reliable voice data exchange with a modern frontend UI.
+
+5. **Domain Specialization Without Overcomplication**:
+Creating agents that were deeply knowledgeable yet simple and accessible for users of all ages.
+
+6. **Maintaining Context and Continuity**:
+Ensuring Astra could remember user interactions and adapt responses appropriately within a real-time voice session.
+
+## Architecture
+
+Astra AI Companion is designed using a modular, scalable architecture that combines Azure AI Agent Service, Semantic Kernel, FastAPI WebSocket, and a lightweight HTML/JavaScript frontend to enable real-time, intelligent conversations.
+
+**Azure AI Agent Service**
+Azure AI Agent Service powers the intelligent agent orchestration, handling dynamic reasoning, tool selection, and multi-step task completion with full plugin and API integration.
+
+**Semantic Kernel**
+Semantic Kernel manages AI memory, function execution, and dynamic planning, ensuring context-aware, flexible, and human-like interactions throughout the conversation.
+
+**FastAPI WebSocket**
+FastAPI WebSocket enables real-time, low-latency, bi-directional communication between the frontend and backend, allowing seamless audio streaming and instant responses.
+
+**HTML/JavaScript Frontend**
+The HTML/JavaScript frontend provides a simple, responsive user interface that captures microphone input, connects via WebSocket, and displays live AI responses smoothly.
+
+![](https://github.com/mkcod/astra-ai-companion/blob/main/architecture.PNG "Architecture")
 
 ## 💻 Setup Instructions
 
