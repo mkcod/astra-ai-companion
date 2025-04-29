@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+aiortc
+av
+sounddevice
+numpy
+semantic-kernel
