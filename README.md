@@ -115,8 +115,11 @@ Emotional Support Seekers | Comfort, mindfulness tools, real-time help | Reducin
    git clone https://github.com/yourusername/astra-ai-companion.git
    cd astra-ai-companion
    ```
+2. **Setup Azure AI Agent Service**
 
-2. **Set Up Backend (FastAPI Server)**:
+   Setup Mental Health Agent, Personality Development Agent, Grade 2 Maths Olympiad Agent as per prompts from file azure_ai_agent_prompts.txt
+   
+3. **Set Up Backend (FastAPI Server)**:
    - Create a `.env` file by copying the example file:
      ```bash
      cp .env.example .env
@@ -132,7 +135,7 @@ Emotional Support Seekers | Comfort, mindfulness tools, real-time help | Reducin
      ```
      This will start the backend server at `http://127.0.0.1:8000`.
 
-3. **Set Up Frontend**:
+4. **Set Up Frontend**:
    - Navigate to the frontend directory:
      ```bash
      cd frontend
