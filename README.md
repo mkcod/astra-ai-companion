@@ -117,7 +117,7 @@ Emotional Support Seekers | Comfort, mindfulness tools, real-time help | Reducin
    ```
 2. **Setup Azure AI Agent Service**
 
-   Setup Mental Health Agent, Personality Development Agent, Grade 2 Maths Olympiad Agent as per prompts from file azure_ai_agent_prompts.txt
+   Setup Mental Health Agent, Personality Development Agent, Grade 2 Maths Olympiad Agent as per prompts from file ![azure_ai_agent_prompts.txt](https://github.com/mkcod/astra-ai-companion/blob/main/azure_ai_agent_prompts.txt)
    
 3. **Set Up Backend (FastAPI Server)**:
    - Create a `.env` file by copying the example file:
